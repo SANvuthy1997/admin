@@ -1,0 +1,2070 @@
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/screen.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.452 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.378 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.871 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.06 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.696 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.541 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.124 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.09 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/footer.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/footer.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.173 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/footer.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.06 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.998 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.069 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/left-nav.cljs   line:68 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+  [36m66[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m67[0m  [36m[0m
+  [33m68[0m  [1m)[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.153 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/left-nav.cljs   line:68 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+  [36m66[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m67[0m  [36m[0m
+  [33m68[0m  [1m)[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.949 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/left-nav.cljs   line:68 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+  [36m66[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m67[0m  [36m[0m
+  [33m68[0m  [1m)[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/left-nav.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.077 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin..admin-page.left-nav, could not locate admin//admin_page/left_nav.cljs, admin//admin_page/left_nav.cljc, or JavaScript source providing "admin..admin-page.left-nav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.939 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin..admin-page.left-nav, could not locate admin//admin_page/left_nav.cljs, admin//admin_page/left_nav.cljc, or JavaScript source providing "admin..admin-page.left-nav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.177 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin..admin-page.left-nav, could not locate admin//admin_page/left_nav.cljs, admin//admin_page/left_nav.cljc, or JavaScript source providing "admin..admin-page.left-nav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.937 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin..admin-page.left-nav, could not locate admin//admin_page/left_nav.cljs, admin//admin_page/left_nav.cljc, or JavaScript source providing "admin..admin-page.left-nav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.899 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.166 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin..admin-page.left-nav, could not locate admin//admin_page/left_nav.cljs, admin//admin_page/left_nav.cljc, or JavaScript source providing "admin..admin-page.left-nav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.984 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:141 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 141, col 4] Unmatched delimiter ].[0m
+
+  [36m139[0m  [36m        ][0m
+  [36m140[0m  [36m  [0m
+  [33m141[0m  [1m  ])[0m
+  [0m   [0m  [33m  /home/user0/admin/src/cljs/admin/views.cljs [line 141, col 4] Unmatched delimiter ].[0m
+  [36m142[0m  [36m[0m
+  [36m143[0m  [36m[0m
+  [36m144[0m  [36m;; about[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.874 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.348 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.956 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:69  column:14  ----[0m
+
+  [1mUse of undeclared Var admin.admin-page.left-nav/admin-body![0m
+
+  [36m65[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-404.html"} " 404 "]][0m
+  [36m66[0m  [36m        [:li {:class "nav-item"}[0m
+  [36m67[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m68[0m  [36m        [0m
+  [33m69[0m  [1m        (admin-body!)][0m
+  [0m  [0m  [33m         ^--- Use of undeclared Var admin.admin-page.left-nav/admin-body![0m
+  [36m70[0m  [36m[0m
+  [36m71[0m  [36m)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.388 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.985 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+
+  [1mInvalid :refer, var admin.admin-page.footer/admin-footer! does not exist [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.044 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.689 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/top-nav.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/top-nav.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 3.063 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 3.118 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.22 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin.admin-page.topnav, could not locate admin/admin_page/topnav.cljs, admin/admin_page/topnav.cljc, or JavaScript source providing "admin.admin-page.topnav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.334 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin.admin-page.topnav, could not locate admin/admin_page/topnav.cljs, admin/admin_page/topnav.cljc, or JavaScript source providing "admin.admin-page.topnav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.677 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin.admin-page.topnav, could not locate admin/admin_page/topnav.cljs, admin/admin_page/topnav.cljc, or JavaScript source providing "admin.admin-page.topnav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.23 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/views.cljs  ----[0m
+
+  [1mNo such namespace: admin.admin-page.topnav, could not locate admin/admin_page/topnav.cljs, admin/admin_page/topnav.cljc, or JavaScript source providing "admin.admin-page.topnav" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.232 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.361 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.406 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.616 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.375 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.405 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.324 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.625 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.649 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.713 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/top_nav.js
+Notifying browser that CSS file changed: resources/public/css/style.css
+Notifying browser that CSS file changed: resources/public/css/style.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.69 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.032 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/footer.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.867 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.89 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.748 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.732 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Notifying browser that CSS file changed: resources/public/css/index.css
+Notifying browser that CSS file changed: resources/public/css/index.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.745 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/index.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/index.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.801 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.119 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.718 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.121 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.831 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.708 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.204 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.025 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.967 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.881 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.414 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.352 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.195 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.399 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.401 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.264 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.331 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Notifying browser that CSS file changed: resources/public/css/index.css
+Notifying browser that CSS file changed: resources/public/css/index.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.884 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.847 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.902 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.851 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.943 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Notifying browser that CSS file changed: resources/public/css/index.css
+Notifying browser that CSS file changed: resources/public/css/index.css
+Notifying browser that CSS file changed: resources/public/css/index.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.05 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.084 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.207 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.998 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.287 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.04 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.141 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.009 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.994 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.004 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.999 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.613 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.544 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Notifying browser that CSS file changed: resources/public/css/index.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.285 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.781 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.876 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.765 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/index.cljs   line:93 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 93, col 30] Unmatched delimiter ).[0m
+
+  [36m91[0m  [36m        [:button {:type "button", :class "btn btn-inverse-success btn-rounded btn-fw"} "Edit"][0m
+  [36m92[0m  [36m        [:button {:type "button", :class "btn btn-inverse-danger btn-rounded btn-fw"} "Delete"]]][0m
+  [33m93[0m  [1m]]]]]]]])[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 93, col 30] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/index.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.884 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/index.cljs   line:93 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 93, col 30] Unmatched delimiter ).[0m
+
+  [36m91[0m  [36m            [:button {:type "button", :class "btn btn-inverse-success btn-rounded btn-fw"} "Edit"][0m
+  [36m92[0m  [36m            [:button {:type "button", :class "btn btn-inverse-danger btn-rounded btn-fw"} "Delete"]]][0m
+  [33m93[0m  [1m]]]]]]]])[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 93, col 30] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/index.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.775 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.82 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.968 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.76 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.849 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:94 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 94, col 59] Unmatched delimiter ).[0m
+
+  [36m92[0m  [36m    [:a {:href "http://www.bootstrapdash.com/", :target "_blank"} "Bootstrapdash"]". All rights reserved."][0m
+  [36m93[0m  [36m[:span {:class "float-none float-sm-right d-block mt-1 mt-sm-0 text-center"} "Hand-crafted &amp; made with" [0m
+  [33m94[0m  [1m    [:i {:class "mdi mdi-heart text-danger"}]]]]])[0m
+  [0m  [0m  [33m    /home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 94, col 59] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.742 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.794 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.864 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.913 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.83 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.862 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.072 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.865 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.89 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/index.cljs   line:68 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 68, col 6] Unmatched delimiter ).[0m
+
+  [36m66[0m  [36m      ]]]]][0m
+  [36m67[0m  [36m    [0m
+  [33m68[0m  [1m    )[0m
+  [0m  [0m  [33m    /home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 68, col 6] Unmatched delimiter ).[0m
+  [36m69[0m  [36m[0m
+  [36m70[0m  [36m[0m
+  [36m71[0m  [36m(defn index [][0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/index.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.838 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.151 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.058 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.955 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.909 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.389 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.373 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.924 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.93 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/index.cljs   line:62 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 62, col 41] Unmatched delimiter ].[0m
+
+  [36m60[0m  [36m        [:td "2"][0m
+  [36m61[0m  [36m        [:td "$ 80"]][0m
+  [33m62[0m  [1m        [:td "May 15, 2015"]]]]]]]]][0m
+  [0m  [0m  [33m        /home/user0/admin/src/cljs/admin/admin-page/index.cljs [line 62, col 41] Unmatched delimiter ].[0m
+  [36m63[0m  [36m)[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/index.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.915 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.91 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.896 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.199 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.303 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.799 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.95 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.955 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.955 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.979 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.284 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.943 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.921 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.89 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.267 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.973 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.901 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.204 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.027 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.007 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.978 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.916 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.971 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.923 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/all-posts.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/all-posts.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.106 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.942 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.042 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/all_posts.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/index.cljs   line:168  column:10  ----[0m
+
+  [1mUse of undeclared Var admin.admin-page.index/all-posts[0m
+
+  [36m164[0m  [36m(defn index [][0m
+  [36m165[0m  [36m    [:div[0m
+  [36m166[0m  [36m        [statistics][0m
+  [36m167[0m  [36m        [weather][0m
+  [33m168[0m  [1m        [all-posts][0m
+  [0m   [0m  [33m         ^--- Use of undeclared Var admin.admin-page.index/all-posts[0m
+  [36m169[0m  [36m        [booking-tours]])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/index.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.453 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.327 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:9 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 9, col 5] Unmatched delimiter ).[0m
+
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [36m 8[0m  [36m   [admin.admin-page.all-posts :refer [all-posts]][0m
+  [33m 9[0m  [1m   ))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 9, col 5] Unmatched delimiter ).[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.339 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:9 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 9, col 5] Unmatched delimiter ).[0m
+
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [36m 8[0m  [36m   [admin.admin-page.all-posts :refer [all-posts]][0m
+  [33m 9[0m  [1m   ))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 9, col 5] Unmatched delimiter ).[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.42 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:9 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 9, col 5] Unmatched delimiter ).[0m
+
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [36m 8[0m  [36m   [admin.admin-page.all-posts :refer [all-posts]][0m
+  [33m 9[0m  [1m   ))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 9, col 5] Unmatched delimiter ).[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.311 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.39 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.386 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.492 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 52] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.358 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts!]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.37 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts!]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.35 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts!]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.342 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts!]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.396 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/views.cljs   line:8 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+
+  [36m 6[0m  [36m   [admin.admin-page.left-nav :refer [left-nav!]][0m
+  [36m 7[0m  [36m   [admin.admin-page.top-nav :refer [top-nav!][0m
+  [33m 8[0m  [1m   [admin.admin-page.all-posts :refer [all-posts!]]))[0m
+  [0m  [0m  [33m   /home/user0/admin/src/cljs/admin/views.cljs [line 8, col 53] Unmatched delimiter ).[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m;; home[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/views.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.705 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.842 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.695 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.744 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/index.cljs   line:168  column:10  ----[0m
+
+  [1mUse of undeclared Var admin.admin-page.index/all-posts[0m
+
+  [36m164[0m  [36m(defn index [][0m
+  [36m165[0m  [36m    [:div[0m
+  [36m166[0m  [36m        [statistics][0m
+  [36m167[0m  [36m        [weather][0m
+  [33m168[0m  [1m        [all-posts][0m
+  [0m   [0m  [33m         ^--- Use of undeclared Var admin.admin-page.index/all-posts[0m
+  [36m169[0m  [36m        [booking-tours]])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/index.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.885 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.816 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.0 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:42 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 42, col 6] Unmatched delimiter ].[0m
+
+  [33m42[0m  [1m][0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 42, col 6] Unmatched delimiter ].[0m
+  [36m43[0m  [36m[:footer {:class "footer"}[0m
+  [36m44[0m  [36m[:div {:class "container-fluid clearfix"}[0m
+  [36m45[0m  [36m    [:span {:class "text-muted d-block text-center text-sm-left d-sm-inline-block"} "Copyright © 2018" [0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.047 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:42 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 42, col 6] Unmatched delimiter ].[0m
+
+  [33m42[0m  [1m][0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 42, col 6] Unmatched delimiter ].[0m
+  [36m43[0m  [36m[:footer {:class "footer"}[0m
+  [36m44[0m  [36m[:div {:class "container-fluid clearfix"}[0m
+  [36m45[0m  [36m    [:span {:class "text-muted d-block text-center text-sm-left d-sm-inline-block"} "Copyright © 2018" [0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.806 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:41 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 41, col 6] Unmatched delimiter ].[0m
+
+  [33m41[0m  [1m][0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 41, col 6] Unmatched delimiter ].[0m
+  [36m42[0m  [36m[:footer {:class "footer"}[0m
+  [36m43[0m  [36m[:div {:class "container-fluid clearfix"}[0m
+  [36m44[0m  [36m    [:span {:class "text-muted d-block text-center text-sm-left d-sm-inline-block"} "Copyright © 2018" [0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.711 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.951 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:41 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 41, col 6] Unmatched delimiter ].[0m
+
+  [33m41[0m  [1m][0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 41, col 6] Unmatched delimiter ].[0m
+  [36m42[0m  [36m[:footer {:class "footer"}[0m
+  [36m43[0m  [36m[:div {:class "container-fluid clearfix"}[0m
+  [36m44[0m  [36m    [:span {:class "text-muted d-block text-center text-sm-left d-sm-inline-block"} "Copyright © 2018" [0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.852 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:41 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 41, col 6] Unmatched delimiter ].[0m
+
+  [33m41[0m  [1m][0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 41, col 6] Unmatched delimiter ].[0m
+  [36m42[0m  [36m[:footer {:class "footer"}[0m
+  [36m43[0m  [36m[:div {:class "container-fluid clearfix"}[0m
+  [36m44[0m  [36m    [:span {:class "text-muted d-block text-center text-sm-left d-sm-inline-block"} "Copyright © 2018" [0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.853 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/body.cljs   line:38 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/body.cljs [line 38, col 1] Unexpected EOF while reading item 4 of list, starting at line 5 and column 1.[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/body.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.731 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.85 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/all_posts.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.818 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.719 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.695 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.808 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.766 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.674 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.657 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/subs.cljs   line:13  column:33  ----[0m
+
+  [1mUse of undeclared Var admin.subs/b[0m
+
+  [36m10[0m  [36m(re-frame/reg-sub[0m
+  [36m11[0m  [36m ::active-panel[0m
+  [36m12[0m  [36m (fn [db _][0m
+  [33m13[0m  [1m   (:active-panel db) (js/alert b)))[0m
+  [0m  [0m  [33m                                ^--- Use of undeclared Var admin.subs/b[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/subs.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.835 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.598 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.726 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.621 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/subs.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:5  column:29  ----[0m
+
+  [1mNo such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame"[0m
+
+  [36m 1[0m  [36m(ns admin.admin-page.left-nav[0m
+  [36m 2[0m  [36m    (:require [admin.admin-page.body :refer [admin-body!]]))[0m
+  [36m 3[0m  [36m[0m
+  [36m 4[0m  [36m(defn left-nav! [][0m
+  [33m 5[0m  [1m    (let [active-page (or @(re-frame/subscribe [:active-panel]))][0m
+  [0m  [0m  [33m                            ^--- No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame"[0m
+  [36m 6[0m  [36m    [:div {:class "container-fluid page-body-wrapper"} [0m
+  [36m 7[0m  [36m        [:nav {:class "sidebar sidebar-offcanvas", :id "sidebar"}[0m
+  [36m 8[0m  [36m        [:ul {:class "nav"}[0m
+  [36m 9[0m  [36m        [:li {:class "nav-item nav-profile"}[0m
+  [36m10[0m  [36m        [:div {:class "nav-link"}[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:5  column:29  ----[0m
+
+  [1mUse of undeclared Var re-frame/subscribe[0m
+
+  [36m 1[0m  [36m(ns admin.admin-page.left-nav[0m
+  [36m 2[0m  [36m    (:require [admin.admin-page.body :refer [admin-body!]]))[0m
+  [36m 3[0m  [36m[0m
+  [36m 4[0m  [36m(defn left-nav! [][0m
+  [33m 5[0m  [1m    (let [active-page (or @(re-frame/subscribe [:active-panel]))][0m
+  [0m  [0m  [33m                            ^--- Use of undeclared Var re-frame/subscribe[0m
+  [36m 6[0m  [36m    [:div {:class "container-fluid page-body-wrapper"} [0m
+  [36m 7[0m  [36m        [:nav {:class "sidebar sidebar-offcanvas", :id "sidebar"}[0m
+  [36m 8[0m  [36m        [:ul {:class "nav"}[0m
+  [36m 9[0m  [36m        [:li {:class "nav-item nav-profile"}[0m
+  [36m10[0m  [36m        [:div {:class "nav-link"}[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.139 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.779 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.992 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.923 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.642 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.346 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.675 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:5  column:2  ----[0m
+
+  [1mNo such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame"[0m
+
+  [36m1[0m  [36m(ns admin.admin-page.left-nav[0m
+  [36m2[0m  [36m    (:require [admin.admin-page.body :refer [admin-body!]][0m
+  [36m3[0m  [36m              [re-frame.core :as rf]))[0m
+  [36m4[0m  [36m[0m
+  [33m5[0m  [1m(re-frame/reg-sub[0m
+  [0m [0m  [33m ^--- No such namespace: re-frame, could not locate re_frame.cljs, re_frame.cljc, or JavaScript source providing "re-frame"[0m
+  [36m6[0m  [36m    :active-panel[0m
+  [36m7[0m  [36m    (fn [db _][0m
+  [36m8[0m  [36m        (get db :active-panel)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:5  column:2  ----[0m
+
+  [1mUse of undeclared Var re-frame/reg-sub[0m
+
+  [36m1[0m  [36m(ns admin.admin-page.left-nav[0m
+  [36m2[0m  [36m    (:require [admin.admin-page.body :refer [admin-body!]][0m
+  [36m3[0m  [36m              [re-frame.core :as rf]))[0m
+  [36m4[0m  [36m[0m
+  [33m5[0m  [1m(re-frame/reg-sub[0m
+  [0m [0m  [33m ^--- Use of undeclared Var re-frame/reg-sub[0m
+  [36m6[0m  [36m    :active-panel[0m
+  [36m7[0m  [36m    (fn [db _][0m
+  [36m8[0m  [36m        (get db :active-panel)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.11 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.797 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.213 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/index.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.788 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.76 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 3.221 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.829 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.079 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.844 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/all_posts.js
+Notifying browser that CSS file changed: resources/public/css/index.css
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.066 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/all_posts.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.91 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.793 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.922 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.774 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:81  column:44  ----[0m
+
+  [1mUse of undeclared Var admin.admin-page.left-nav/new-post[0m
+
+  [36m77[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m78[0m  [36m        [0m
+  [36m79[0m  [36m        (cond  [0m
+  [36m80[0m  [36m            (= active-page :all-posts) (all-posts!) [0m
+  [33m81[0m  [1m            (= active-page :new-post) (new-post)[0m
+  [0m  [0m  [33m                                       ^--- Use of undeclared Var admin.admin-page.left-nav/new-post[0m
+  [36m82[0m  [36m            :else (admin-body!) )][0m
+  [36m83[0m  [36m[0m
+  [36m84[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.194 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.993 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/routes.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.83 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/views.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:81  column:44  ----[0m
+
+  [1mUse of undeclared Var admin.admin-page.left-nav/new-post[0m
+
+  [36m77[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m78[0m  [36m        [0m
+  [36m79[0m  [36m        (cond  [0m
+  [36m80[0m  [36m            (= active-page :all-posts) (all-posts!) [0m
+  [33m81[0m  [1m            (= active-page :new-post) (new-post)[0m
+  [0m  [0m  [33m                                       ^--- Use of undeclared Var admin.admin-page.left-nav/new-post[0m
+  [36m82[0m  [36m            :else (admin-body!) )][0m
+  [36m83[0m  [36m[0m
+  [36m84[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.163 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[36m----  Compiler Warning on   src/cljs/admin/admin-page/left-nav.cljs   line:81  column:44  ----[0m
+
+  [1mUse of undeclared Var admin.admin-page.left-nav/new-post[0m
+
+  [36m77[0m  [36m        [:a {:class "nav-link", :href "pages/samples/error-500.html"} " 500 "]]]]]]][0m
+  [36m78[0m  [36m        [0m
+  [36m79[0m  [36m        (cond  [0m
+  [36m80[0m  [36m            (= active-page :all-posts) (all-posts!) [0m
+  [33m81[0m  [1m            (= active-page :new-post) (new-post)[0m
+  [0m  [0m  [33m                                       ^--- Use of undeclared Var admin.admin-page.left-nav/new-post[0m
+  [36m82[0m  [36m            :else (admin-body!) )][0m
+  [36m83[0m  [36m[0m
+  [36m84[0m  [36m))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/admin/admin-page/left-nav.cljs  ----[0m
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.949 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Figwheel: Can't open  ("src/cljs/admin/admin-page/left-nav.cljs" 81 44) No :open-file-command supplied in the config.
+Figwheel: Can't open  ("src/cljs/admin/admin-page/left-nav.cljs" 81 44) No :open-file-command supplied in the config.
+Figwheel: Can't open  ("src/cljs/admin/admin-page/left-nav.cljs" 81 44) No :open-file-command supplied in the config.
+Figwheel: Can't open  ("src/cljs/admin/admin-page/left-nav.cljs" 81 44) No :open-file-command supplied in the config.
+Figwheel: Can't open  ("src/cljs/admin/admin-page/left-nav.cljs" 81 44) No :open-file-command supplied in the config.
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.741 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/left_nav.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.255 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/body.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.832 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.756 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.83 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.824 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.795 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.838 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.784 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.927 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.778 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.848 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.731 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.735 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.713 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/new-post.cljs   line:21 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 21, col 76] Unmatched delimiter ).[0m
+
+  [36m19[0m  [36m    [:input {:type "password", :class "form-control", :id "exampleInputPassword2", :placeholder "Password"}]]][0m
+  [36m20[0m  [36m[:button {:type "submit", :class "btn btn-success mr-2"} "Submit"][0m
+  [33m21[0m  [1m[:button {:class "btn btn-light"} "Cancel"]]]]]]]])[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 21, col 76] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.796 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/new-post.cljs   line:21 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 21, col 76] Unmatched delimiter ).[0m
+
+  [36m19[0m  [36m    [:input {:type "password", :class "form-control", :id "exampleInputPassword2", :placeholder "Password"}]]][0m
+  [36m20[0m  [36m[:button {:type "submit", :class "btn btn-success mr-2"} "Submit"][0m
+  [33m21[0m  [1m[:button {:class "btn btn-light"} "Cancel"]]]]]]]])[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 21, col 76] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.801 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.845 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.854 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.823 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.927 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.792 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.769 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/new-post.cljs   line:24 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 24, col 75] Unmatched delimiter ].[0m
+
+  [36m23[0m  [36m[:button {:type "submit", :class "btn btn-success mr-2"} "Submit"][0m
+  [33m24[0m  [1m[:button {:class "btn btn-light"} "Cancel"]]]]]]]])[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 24, col 75] Unmatched delimiter ].[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.787 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.688 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/new-post.cljs   line:10 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 10, col 80] The map literal starting with :class on line 10 column 28 contains 3 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m 8[0m  [36m[:div {:class "card-body"}[0m
+  [36m 9[0m  [36m    [:h4 {:class "card-title"} "Complete the form below"][0m
+  [33m10[0m  [1m    [:form {:class "forms-sample" {:style {:padding "0px 5%"}}}[0m
+  [0m  [0m  [33m    /home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 10, col 80] The map literal starting with :class on line 10 column 28 contains 3 form(s). Map literals must contain an even number of forms.[0m
+  [36m11[0m  [36m        [:div {:class "form-group row"}[0m
+  [36m12[0m  [36m            [:div {:class "col-sm-6"}[0m
+  [36m13[0m  [36m                [:div {:class "form-group row"}[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.835 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.89 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.784 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.725 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.757 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.788 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.819 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.716 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.16 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.845 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.774 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.97 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.747 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.773 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.618 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.854 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.838 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.908 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.011 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.803 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.873 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.072 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.9 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.028 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.889 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.784 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.736 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.741 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.73 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.862 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.763 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.752 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.787 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.842 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.758 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.769 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.73 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.819 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.694 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/new-post.cljs   line:52 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 52, col 129] The map literal starting with :type on line 52 column 34 contains 7 form(s). Map literals must contain an even number of forms.[0m
+
+  [36m50[0m  [36m         []", :class "file-upload-default"}][0m
+  [36m51[0m  [36m[:div {:class "input-group col-xs-12"}[0m
+  [33m52[0m  [1m [:input {:type "text", :class "form-control file-upload-info", :disabled , :placeholder "Upload Image"}][0m
+  [0m  [0m  [33m /home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 52, col 129] The map literal starting with :type on line 52 column 34 contains 7 form(s). Map literals must contain an even number of forms.[0m
+  [36m53[0m  [36m [:span {:class "input-group-append"}[0m
+  [36m54[0m  [36m  [:button {:class "file-upload-browse btn btn-info", :type "button"} "Upload"]]]][0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.853 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/new-post.cljs   line:60 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 60, col 90] Unmatched delimiter ).[0m
+
+  [36m58[0m  [36m][0m
+  [36m59[0m  [36m[:button {:type "submit", :class "btn btn-success mr-2"} "Submit"][0m
+  [33m60[0m  [1m[:button {:class "btn btn-light" :type "reset"} "Cancel"]]]]]]]])[0m
+  [0m  [0m  [33m/home/user0/admin/src/cljs/admin/admin-page/new-post.cljs [line 60, col 90] Unmatched delimiter ).[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.994 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.881 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.27 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.784 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.744 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.964 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.817 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.817 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.757 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.8 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.496 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.781 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.717 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.758 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.757 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.724 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.006 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.714 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.877 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.917 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.882 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.276 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.878 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.819 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.976 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.735 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.871 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.71 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.728 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.739 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.923 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 3.82 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.76 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.825 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.109 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 4.091 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.946 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.423 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.887 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.371 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.354 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.344 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.599 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.983 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.295 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/quill.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/quill.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.329 seconds.[0m
+[36m----  Could not Read  src/cljs/admin/admin-page/quill.cljs   line:121 ----[0m
+
+  [1m/home/user0/admin/src/cljs/admin/admin-page/quill.cljs [line 121, col 67] Unexpected EOF while reading item 6 of list, starting at line 1 and column 1.[0m
+
+  [36m119[0m  [36m[:div {:id (str "quill-display-area-" id)[0m
+  [36m120[0m  [36m       :class "quill-display-area"[0m
+  [33m121[0m  [1m       :dangerouslySetInnerHTML {:__html content}}])})))[0m
+  [0m   [0m  [33m       /home/user0/admin/src/cljs/admin/admin-page/quill.cljs [line 121, col 67] Unexpected EOF while reading item 6 of list, starting at line 1 and column 1.[0m
+
+[36m----  Reader Error : Please see src/cljs/admin/admin-page/quill.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.956 seconds.[0m
+[36m----  Exception    ----[0m
+
+  [1mAssert failed: file:/home/user0/admin/src/cljs/admin/admin-page/quill.cljs does not provide a namespace
+(first provides)[0m
+
+[36m----  Exception Stack Trace  ----[0m
+
+java.lang.AssertionError: Assert failed: file:/home/user0/admin/src/cljs/admin/admin-page/quill.cljs does not provide a namespace
+(first provides)
+ at cljs.closure$javascript_file.invokeStatic (closure.clj:475)
+    cljs.closure$javascript_file.invoke (closure.clj:471)
+    cljs.closure$map__GT_javascript_file.invokeStatic (closure.clj:480)
+    cljs.closure$map__GT_javascript_file.invoke (closure.clj:478)
+    cljs.closure$compiled_file.invokeStatic (closure.clj:547)
+    cljs.closure$compiled_file.invoke (closure.clj:539)
+    cljs.closure$compile_file.invokeStatic (closure.clj:573)
+    cljs.closure$compile_file.invoke (closure.clj:564)
+    cljs.closure$fn__5124.invokeStatic (closure.clj:653)
+    cljs.closure/fn (closure.clj:647)
+    cljs.closure$fn__5052$G__5045__5059.invoke (closure.clj:521)
+    cljs.closure$compile_sources$iter__5250__5254$fn__5255.invoke (closure.clj:1011)
+    clojure.lang.LazySeq.sval (LazySeq.java:40)
+    clojure.lang.LazySeq.seq (LazySeq.java:49)
+    clojure.lang.Cons.next (Cons.java:39)
+    clojure.lang.RT.next (RT.java:688)
+    clojure.core$next__4341.invokeStatic (core.clj:64)
+    clojure.core$dorun.invokeStatic (core.clj:3033)
+    clojure.core$doall.invokeStatic (core.clj:3039)
+    clojure.core$doall.invoke (core.clj:3039)
+    cljs.closure$compile_sources.invokeStatic (closure.clj:1007)
+    cljs.closure$compile_sources.invoke (closure.clj:996)
+    cljs.closure$build.invokeStatic (closure.clj:2817)
+    cljs.closure$build.invoke (closure.clj:2718)
+    cljs.build.api$build.invokeStatic (api.clj:208)
+    cljs.build.api$build.invoke (api.clj:189)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invokeStatic (cljs_autobuild.clj:28)
+    figwheel_sidecar.components.cljs_autobuild$cljs_build.invoke (cljs_autobuild.clj:27)
+    figwheel_sidecar.build_middleware.injection$hook$fn__18501.invoke (injection.clj:94)
+    figwheel_sidecar.components.cljs_autobuild$notify_command_hook$fn__18813.invoke (cljs_autobuild.clj:69)
+    figwheel_sidecar.components.cljs_autobuild$figwheel_start_and_end_messages$fn__18803.invoke (cljs_autobuild.clj:48)
+    figwheel_sidecar.build_middleware.notifications$hook$fn__18672.invoke (notifications.clj:179)
+    figwheel_sidecar.build_middleware.clj_reloading$hook$fn__18729.invoke (clj_reloading.clj:111)
+    figwheel_sidecar.build_middleware.javascript_reloading$hook$fn__18762.invoke (javascript_reloading.clj:48)
+    figwheel_sidecar.components.cljs_autobuild$color_output$fn__18817.invoke (cljs_autobuild.clj:80)
+    figwheel_sidecar.components.cljs_autobuild$execute_build$fn__18859.invoke (cljs_autobuild.clj:234)
+    figwheel_sidecar.utils$sync_exec$fn__221$fn__222.invoke (utils.clj:13)
+    figwheel_sidecar.utils$sync_exec$fn__221.invoke (utils.clj:12)
+    clojure.core$binding_conveyor_fn$fn__4676.invoke (core.clj:1941)
+    clojure.lang.AFn.applyToHelper (AFn.java:154)
+    clojure.lang.RestFn.applyTo (RestFn.java:132)
+    clojure.lang.Agent$Action.doRun (Agent.java:114)
+    clojure.lang.Agent$Action.run (Agent.java:163)
+    java.util.concurrent.ThreadPoolExecutor.runWorker (ThreadPoolExecutor.java:1149)
+    java.util.concurrent.ThreadPoolExecutor$Worker.run (ThreadPoolExecutor.java:624)
+    java.lang.Thread.run (Thread.java:748)
+
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.688 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.666 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.962 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.695 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.674 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.632 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.804 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.454 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.826 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.006 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 1.042 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[31mFailed to compile build :dev from ["src/cljs"] in 0.788 seconds.[0m
+[36m----  Could not Analyze  src/cljs/admin/admin-page/new-post.cljs  ----[0m
+
+  [1mNo such namespace: quill, could not locate quill.cljs, quill.cljc, or JavaScript source providing "quill" [0m
+
+[36m----  Analysis Error : Please see src/cljs/admin/admin-page/new-post.cljs  ----[0m
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 3.21 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/cljs_deps.js
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.153 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.827 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 1.675 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Compiling build :dev to "resources/public/js/compiled/app.js" from ["src/cljs"]...
+[32mSuccessfully compiled build :dev to "resources/public/js/compiled/app.js" in 2.067 seconds.[0m
+notifying browser that file changed:  resources/public/js/compiled/out/admin/admin_page/new_post.js
+Notifying browser that CSS file changed: resources/public/css/style.css
